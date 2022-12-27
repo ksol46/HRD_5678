@@ -33,7 +33,7 @@ public class ProgramController extends HttpServlet {
 	protected void doPro(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		String context = request.getContextPath();
-		
+		//dddd
 		String command = request.getServletPath();
 		
 		String site = null;
